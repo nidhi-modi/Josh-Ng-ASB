@@ -16,8 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Transactions"
         tools:targetApi="31"
-        android:appComponentFactory="nz.co.test.transactions.di.DaggerAppComponentFactory"
-        tools:replace="android:appComponentFactory">
+        android:name=".activities.MyApplication"
+        >
 
         <activity
             android:name=".activities.MainActivity"
